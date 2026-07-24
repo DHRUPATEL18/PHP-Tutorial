@@ -24,9 +24,9 @@
 
     <form name="form" method="post" action="sessionlogic.php">
         No 1 :
-        <input type="number" name="num1" value="<?php echo $x?>" min="0" max="100"><br>
+        <input type="number" name="num1" value="<?php echo $x;?>" min="0" max="100"><br>
         No 2 :
-        <input type="number" name="num2" value="<?php echo $y?>" min="0" max="100" style="margin-top: 5px;"><br>
+        <input type="number" name="num2" value="<?php echo $y; ?>" min="0" max="100" style="margin-top: 5px;"><br>
         Result :
         <input type="text" name="result" value="<?php echo $z; ?>" readonly style="margin-top: 5px;"><br>
         <input type="submit" value="Add" name="addition" style="margin-top: 10px; width: 100px;">
